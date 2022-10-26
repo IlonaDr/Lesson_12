@@ -1,0 +1,149 @@
+.wrapper{
+   max-height: 100%;
+   
+   transition: all 0.8s ease 0s;
+}
+body{
+   background: url(../img/1.webp) 0 0/100% no-repeat, url(../img/10.jpg) 0 850px/100% no-repeat;
+}
+header{
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+   opacity: 0.5;
+   color: green;
+   background-color: #fff;
+   text-transform: uppercase;
+   position: fixed;
+   left: 45%;
+   z-index: 2;
+}
+.bird{
+   width: 250px;
+   height: 250px;
+   position: relative;
+   left: 200px;
+}
+.bird:hover{
+   transform: scale(-1, 1);
+}
+.snake{
+   width: 250px;
+   height: 250px;
+   position: relative;
+   left: 700px;
+   top: 450px;
+   z-index: 2;
+}
+.snake:hover{
+   transform: scale(1, 2);
+}
+.rhino__body{
+   width: 250px;
+   height: 200px;
+   position: relative;
+   top: 200px;
+   left: 400px;
+}
+.rhino__item{
+   width: 250px;
+   height: 200px;
+   position: relative;
+   left: 400px;
+   background-color: rgb(157,213,58);
+   opacity: 0.8;
+}
+.rhino__item:hover{
+   transform: translate(0, -100%);
+   text-align: center;
+   font-weight: 700;
+   color: #fff;
+}
+.turtle__body{
+   width: 200px;
+   height: 200px;
+   position: fixed;
+   left: 820px;
+   bottom: 15px;
+   z-index: 1;
+}
+.turtle__body:hover{
+   transform: scale(1, 0.5);
+   bottom: -50px;
+}
+.tiger{
+   width: 250px;
+   height: 200px;
+   position: relative;
+   bottom: 300px;
+   left: 1200px;
+   z-index: 1;
+}
+.tiger:hover{
+   transform: translate(-50px, 50px) rotate(-40deg) scale(2);
+}
+.butterfly__body{
+   width: 220px;
+   height: 200px;
+   position: relative;
+   bottom: 750px;
+   left: 750px;
+}
+.butterfly__item{
+   width: 250px;
+   height: 200px;
+   position: relative;
+   bottom: 950px;
+   left: 735px;
+   background-color: rgba(10, 131, 46, 0.71);
+   transform-origin: 0 0;
+   transform: rotate(0deg);
+}
+.butterfly__item:hover{
+   transform: rotate(-45deg);
+}
+.panda{
+   width: 220px;
+   height: 200px;
+   position: relative;
+   bottom: 850px;
+   left: 50px;
+}
+.panda:hover{
+   transform: matrix(1, 2, 1, 0, 100, -100);
+}
+.lion{
+   width: 220px;
+   height: 200px;
+   position: relative;
+   bottom: 990px;
+   left: 750px;
+}
+.lion:hover{
+   transform: skew(25deg, 45deg);
+}
+.dolphin{
+   width: 420px;
+   height: 200px;
+   position: relative;
+   bottom: 500px;
+   left: 50px;
+}
+.dolphin:hover{
+   transform: translate(-50px) rotate(-70deg) scale(2);
+}
+.fishes{
+   width: 420px;
+   height: 300px;
+   position: relative;
+   bottom: 500px;
+   left: 50px;
+}
+.fishes:hover{
+   transform: translate(-50px) rotate(30deg) scale(-3);
+}
+.link{
+   font-size: 30px;
+   font-weight: 700;
+   color: yellowgreen;
+}
